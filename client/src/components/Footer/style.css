@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+
+.footer {
+  height: 7vh;
+  text-align: center;
+  background-color: rgb(37, 42, 52);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer p {
+  font-size: 1.3rem;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.footer p a{
+    color: #F1F2EF;
+}
+@media screen and (max-width:950px){
+  .footer{
+    height: 10vh;
+  }
+}

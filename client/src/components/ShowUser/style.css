@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.view {
+  width: 100%;
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #374255;
+}
+
+
+
+.view h1 {
+  margin: 1% 0%;
+  font-size: 2.5rem;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  color: #F1F2EF;
+}
+.view table {
+  width: 80%;
+  border: "solid 1px blue";
+}
+table {
+  font-family: "Roboto", sans-serif;
+  border: 0;
+  border-collapse: collapse;
+  border-radius: 8px;
+  /* box-shadow: 1px 5px 5px 1px #d6d6d6; */
+  text-align: center;
+}
+th,
+td {
+  border: 0;
+  border-bottom: 1px solid rgb(189, 188, 188);
+}
+th,
+td {
+  padding: 15px;
+}
+table {
+  background-color: #F1F2EF;
+}
+
+.view button{
+  background:none;
+  border: 1px solid red;
+  font-size: 1rem;
+  border-radius: 4px;
+  padding: 0.4rem;
+  color: red;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.view button:hover{
+  background-color: red;
+  color: white;
+}
+#search{
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+#search .container{
+  border-radius: 8px;
+  /* box-shadow: 1px 5px 10px 1px rgb(209, 209, 209); */
+
+  background:none
+}
+#search .container input, #search .container button{
+  color: #F1F2EF;
+
+  font-size: 1.5rem;
+  padding: 0.7rem;
+  outline: none;
+  border: none;
+  background: none;
+  border-bottom: 1px solid #F1F2EF;
+}
+#search .container button{
+  margin: 0 0.5rem;
+  border: 1px solid #F1F2EF;
+}
+#search .container button:hover{
+  color: #374255;
+  background-color: #F1F2EF;
+}
+@media screen and (max-width:950px){
+  .view h1{
+
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  #search .container input, #search .container button{
+
+    font-size: 0.9rem;
+    padding: 0.3rem;
+  }
+  #search .container button{
+    margin: 0 0.1rem;
+  }
+}
