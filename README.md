@@ -7,7 +7,7 @@
 1. Clone the repo.
 2. Make sure you have Node.js installed in your system.
 3. Open two terminal (one for running Server (cd server) and other for the UI (cd client)).
-4. Before running, install all dependencies for both server and client.
+4. Before running, install all dependencies for both server and client. (using npm install)
 5. After installing everything, start the server in one terminal
   * node app.js
 6. Run the react app in other terminal
